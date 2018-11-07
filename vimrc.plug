@@ -1,3 +1,9 @@
 call plug#begin('~/.vim/plugged')
+
+"not elixir format
 Plug 'elixir-editors/vim-elixir'
+
+" elixir format 
+Plug 'mhinz/vim-mix-format'
+
 call plug#end()
