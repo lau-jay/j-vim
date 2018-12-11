@@ -14,7 +14,7 @@ set nocompatible
 filetype off
 
 syntax on
- 
+
 set history=2000
 
 " base
@@ -28,6 +28,12 @@ set nobackup      " not keep a backup file
 let g:mix_format_on_save = 1
 let g:mix_format_silent_errors = 1
 
+
+" Syntastic
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+
+let g:elm_syntastic_show_warnings = 1
 
 if filereadable(expand("~/.vimrc.plug"))
     source ~/.vimrc.plug

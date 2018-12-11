@@ -3,7 +3,16 @@ call plug#begin('~/.vim/plugged')
 "not elixir format
 Plug 'elixir-editors/vim-elixir'
 
-" elixir format 
+" elixir format
 Plug 'mhinz/vim-mix-format'
+
+" elm plug
+Plug 'elmcast/elm-vim'
+
+" ale
+Plug 'w0rp/ale'
+
+" syntastic
+Plug 'vim-syntastic/syntastic'
 
 call plug#end()
